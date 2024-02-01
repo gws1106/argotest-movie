@@ -13,7 +13,7 @@ spec:
         run: movie-deploy
     spec:
       containers:
-              - image: gw1106/movie-app-beta:v1
+      - image: gw1106/movie-app-beta:v1
         name: test
         ports:
         - containerPort: 80
